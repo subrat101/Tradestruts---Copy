@@ -1,0 +1,14 @@
+
+
+ul#menu li a { 
+margin-left: 8px; /*-- ~ half of actual value due to double margin bug --*/
+width: 182px;
+}
+
+ul#menu li { 
+height: 20px; /*-- because min-height doesn't work --*/
+}
+
+ul#menu li .v_selected {
+margin-bottom: 2px; /*-- half of actual value due to double margin bug --*/
+} 

@@ -1,0 +1,76 @@
+/*-- reset styles --*/
+html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,code,del,dfn,em,img,q,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td {
+border:0;
+font-weight:inherit;
+font-style:inherit;
+font-family:inherit;
+margin:0;
+padding:0;
+}
+br { height: 0; }
+body {  margin:0; padding: 0; }
+/* Tables still need 'cellspacing="0"' in the markup. */
+table { border-collapse: separate; border-spacing: 0; }
+caption, th, td { text-align: left; font-weight:400; }
+/* Remove possible quote marks (") from <q>, <blockquote>. */
+blockquote:before, blockquote:after, q:before, q:after { content: ""; }
+blockquote, q { quotes: "" ""; }
+a img { border: none; }
+/*-- end reset styles --*/
+
+/* --- styles for some common HTML TAGS ---------------------------*/
+body {   font-family: Arial, Helvetica, sans-serif; font-size: 12px; color: #333333; margin: 20px 0 0 20px;}
+p, td, li {  }
+h1, h2, h3, h4, h5, h6 { font-weight:bold; }
+h2 { font-size: 15px;}
+hr { height: 1px; }
+a:link, a:visited {
+text-decoration: none;
+}
+a:hover {
+text-decoration: underline;
+}
+a:active, a:focus{
+	outline:none;
+}
+
+.spacer { height: 0px;}
+
+
+/* --- styles for FORM FIELDS -------------------------------------*/
+form { }
+input, textarea, select { font-family: arial, tahoma, sans-serif; font-size: 11px; background-image: none; }
+input.text { padding: 1px 2px; background-image: none; }
+input.btn {  background-color: #FFFFFF; background-image: none; }
+input.checkbox, input.radio { background-image: none; }
+
+
+a:link {
+color: #333333;
+}
+
+a:visited {
+color: #333333;
+}
+
+a:active {
+color: #000000;
+} 
+
+a:hover {
+color: #000000;
+}
+
+.border {
+border: 1px solid #cccccc;
+}
+
+
+/*-- color 1--*/
+.color_1 {
+background-color: #2d5b77;
+}
+
+h1 {
+color: #333333;
+}
